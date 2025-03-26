@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css" class="css">
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Bandeya Rey Bandeya...</span>
+                    <span class="songlistplay"><span class="timestamp">04.14 <i id='0' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover2.jpg" alt="1">
+                    <span>Tu Jhoom...</span>
+                    <span class="songlistplay"><span class="timestamp">06.37 <i id='1' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover3.jpg" alt="1">
+                    <span>Lofi Love...</span>
+                    <span class="songlistplay"><span class="timestamp">03.30 <i id='2' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover4.jpg" alt="1">
+                    <span>Husn...</span>
+                    <span class="songlistplay"><span class="timestamp">03.37 <i id='3' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover5.jpg" alt="1">
+                    <span>Jo Tum Mere Ho...</span>
+                    <span class="songlistplay"><span class="timestamp">04.11 <i id='4' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover6.jpg" alt="1">
+                    <span>Tu Hain To Main Hoon...</span>
+                    <span class="songlistplay"><span class="timestamp">04.07 <i id='5' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover7.jpg" alt="1">
+                    <span>Haan Ke Haan...</span>
+                    <span class="songlistplay"><span class="timestamp">03.24 <i id='6' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover8.jpg" alt="1">
+                    <span>O Mahi...</span>
+                    <span class="songlistplay"><span class="timestamp">03.53 <i id='7' class="fas songitemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="72px" alt="" id="gif">Bandeya Rey Bandeya - Feelings
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</body>
+
+</html>
